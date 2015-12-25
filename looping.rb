@@ -1,5 +1,8 @@
-def looping
-	#your code here
+def looping (charm)
+	charm = "Wingardium Leviosa" #your code here
+  loop do
+    puts charm
+end
 end
 
-#call your method here
+looping("Wingardium Leviosa") #call your method here
